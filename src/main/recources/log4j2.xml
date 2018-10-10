@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration status = "WARN">
+    <Appenders>
+        <File typeName = "file" fileName = "app.log">
+            <PatternLayout>
+                <pattern>%d %p %c(1.) [%t]%m %ex%n</pattern>
+            </PatternLayout>
+        </File>
+    </Appenders>
+
+    <Loggers>
+        <Root level="all">
+            <AppenderRef ref="file" level="All"/>
+        </Root>
+    </Loggers>
+</configuration>

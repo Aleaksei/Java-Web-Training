@@ -1,0 +1,16 @@
+body{
+    background: url("img/Visiobike_SF.jpg") no-repeat;
+    height: 100%;
+    background-size: 100%;
+}
+
+form {
+    background-color: white;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 40%;
+    padding: 15px;
+    width: 20%;
+    text-align: center;
+    line-height: 2em;
+}

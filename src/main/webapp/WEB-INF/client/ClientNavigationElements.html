@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../../resources/css/ClientNavStyle.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div class="sidenav">
+    <form action="/Controller" method="post">
+        <input hidden  value="ClientHome" name="command">
+        <input type="submit" value="Home"/>
+    </form>
+    <form action="/Controller" method="post">
+        <input type="submit" value="RentalBike" name="command"/>
+    </form>
+</div>
+
+<div class="header">
+    <h1>Rental Place</h1>
+    <form action="Controller" method="post">
+        <input type="submit" value="Logout" name="command"/>
+    </form>
+
+</div>
+
+</body>
+</html>
